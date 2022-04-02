@@ -4,14 +4,44 @@
 }
 
 .logo-box {
-  position: absolute;
+ /* position: absolute;
   top: 4rem;
-  left: 4rem;
-
+  left: 4rem;*/
 }
 
 .logo {
   height: 4.8rem;
+  width: auto;
+}
+
+.main-nav {
+  list-style: none;
+
+  li {
+    display: inline-block;
+    margin-left: 4rem;
+
+    a:link,
+    a:visited
+    {
+      padding: .8rem 0;
+      //color: #fff;
+      color: #212529;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 1.8rem;
+      border-bottom: 1px solid transparent;
+      transition: all .2s;
+    }
+
+    a:hover,
+    a:active {
+      border-bottom: 2px solid #c92a2a;
+      //border-bottom: 1px solid #c92a2a;
+
+    }
+  }
+
 }
 
 .text-box {

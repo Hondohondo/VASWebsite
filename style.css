@@ -121,10 +121,10 @@ section-two:hover .message {
 
 .tagline {
     /*position: absolute;*/
-    opacity: 0;
+    /*opacity: 0;*/
     /*transform: translateY(20%);*/
-    transition: all 1s;
-    backface-visibility: hidden;
+    /*transition: all 1s;*/
+    /*backface-visibility: hidden;*/
 }
 
 .bg-video-container {
@@ -151,7 +151,9 @@ section-two:hover .message {
 
 .footer-links:link,
 .footer-links:visited {
-    color: #333;
+    /*color: #333;*/
+    color: #fff;
+    /*color: #c92a2a;*/
 }
 
 ion-icon {
@@ -167,7 +169,8 @@ ion-icon {
 .social-links:link,
 .social-links:visited {
 
-    color: #333;
+    /*color: #333;*/
+    color: #fff;
 
     transition: all 3s;
 }
@@ -179,7 +182,10 @@ ion-icon {
 
 .social-links:link,
 .social-links:visited {
-    color: #333;
+    /*color: #333;*/
+    color: #fff;
+    /*color: #c92a2a;*/
+
 }
 
 .social-links:hover .ion-facebook,

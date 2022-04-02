@@ -64,15 +64,18 @@
   &:link,
   &:visited {
     font-size: 1.6rem;
-    color: #55a57a;
+    //color: #55a57a;
+    color: #c92a2a;
     display: inline-block;
     text-decoration: none;
-    border-bottom: 1px solid #55a57a;
+    //border-bottom: 1px solid #55a57a;
+    border-bottom: 1px solid #c92a2a;
     padding: 3px;
     transition: all .2s;
   }
   &:hover {
-    background-color: #55a57a;
+    //background-color: #55a57a;
+    background-color: #c92a2a;
     color: white;
     box-shadow: 0 1rem 2rem rgba(0,0,0,.15);
     transform: translateY(-2px);
