@@ -1,3 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap");
+.vas-photo {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.card-image {
+  height: 240px;
+  overflow: hidden;
+}
+
+.card-image img {
+  border-radius: 12px;
+  width: 100%;
+  display: block;
+}
+
+.card-1 {
+  border-radius: 12px;
+  background: #fff5f5;
+}
+
+.card-2 {
+  border-radius: 12px;
+  background: #edf2ff;
+}
+
+.card-3 {
+  border-radius: 12px;
+  background: #fff0f6;
+}
+
+.card-4 {
+  border-radius: 12px;
+  background: #f8f0fc;
+}
+
+.card-5 {
+  border-radius: 12px;
+  background: #f3f0ff;
+}
+
+.card-content {
+  padding: 12px;
+}
+
+.italic-para {
+  font-style: italic;
+  padding-bottom: 12px;
+}
+
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -108,6 +160,120 @@
   transform: translateY(0);
 }
 
+.vertical-ribbon {
+  /*  position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 20;
+    background-color: #3fda85;
+    width: 2rem;*/
+}
+
+iframe {
+  border-radius: 3px;
+}
+
+.card {
+  position: relative;
+  height: 48rem;
+  transition: all 0.3s;
+  /* background-color: orangered;
+   height: 50rem;
+   transition: all .8s;
+
+   &:hover {
+     transform: rotateY(180deg);
+     //transform: rotateY(45deg);
+   } */
+}
+.card__side {
+  height: 48rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  backface-visibility: hidden;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+.card__side--front {
+  background-color: white;
+}
+.card__side--back-1 {
+  background: linear-gradient(to right bottom, #ffd43b, #e67700);
+}
+.card:hover {
+  transform: translateY(-1.5rem) scale(1.03);
+  cursor: pointer;
+}
+.card:active {
+  transform: translateY(-1rem) scale(1);
+}
+.card__picture {
+  background-size: cover;
+  height: 24rem;
+}
+.card__picture-1 {
+  background-image: url(../images/vas-4.JPG);
+}
+.card__picture-2 {
+  background-image: url(../images/vas-2.JPG);
+}
+.card__picture-3 {
+  background-image: url(../images/vas-3.jpg);
+}
+.card__heading {
+  font-size: 2.4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2rem 1.5rem 0 1.5rem;
+  /*  position: absolute;
+    top: 12rem;
+    right: 2rem ;*/
+}
+.card__details {
+  padding: 2rem;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.card__details ul {
+  list-style: none;
+  /*  width: 80%;
+    margin: 0 auto;*/
+}
+.card__details ul li {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.card__details ul li:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+.card__cta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  text-align: center;
+}
+.card__price-box {
+  color: white;
+  margin-bottom: 8rem;
+}
+.card__price-only {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+.card__price-value {
+  font-size: 6rem;
+  font-weight: 100;
+}
+
 .composition {
   position: relative;
 }
@@ -201,7 +367,6 @@
 }
 
 .section-about {
-  background-color: #fff5f5;
   padding: 12rem 0;
 }
 
@@ -209,8 +374,13 @@
   padding: 12rem 0;
 }
 
+.section-cards {
+  background-color: #fff5f5;
+  padding: 12rem 0;
+}
+
 .header {
-  height: 95vh;
+  height: 100vh;
   position: relative;
 }
 
@@ -247,12 +417,32 @@
   border-bottom: 2px solid #c92a2a;
 }
 
+.nav-bar {
+  z-index: 2;
+}
+
+.text-box-container {
+  width: 100%;
+  z-index: 1;
+}
+
+.text-box-container::after {
+  background: rgba(30, 30, 30, 0.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  content: "";
+}
+
 .text-box {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  z-index: 10;
 }
 
 .section-one {
@@ -292,8 +482,10 @@
 }
 
 .section-two {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../images/vas-4.JPG");
   background-size: cover;
-  height: 60rem;
+  background-position: center;
+  height: 32rem;
   color: white;
 }
 
@@ -320,6 +512,10 @@
   background-size: cover;
   height: 60rem;
   color: white;
+}
+
+body {
+  font-family: "Arvo", serif;
 }
 
 .heading-one {

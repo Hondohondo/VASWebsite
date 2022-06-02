@@ -1,0 +1,179 @@
+.vertical-ribbon {
+/*  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: 20;
+  background-color: #3fda85;
+  width: 2rem;*/
+}
+
+
+iframe {
+  border-radius: 3px;
+}
+
+
+
+
+.card {
+
+  //FUNCTIONALITY
+  //perspective: 150rem;
+  //-moz-perspective: 150rem;
+  position: relative;
+  //height: 50rem;
+  height: 48rem;
+  transition: all .3s;
+
+  &__side {
+    //background-color: orangered;
+    //height: 50rem;
+    height: 48rem;
+    //transition: all .8s ease;
+
+    //color: white;
+    //font-size: 2rem;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+
+    overflow: hidden;
+
+    &--front {
+      background-color: white;
+    }
+
+    &--back {
+      //background-color: green;
+      //transform: rotateY(180deg);
+
+      &-1 {
+        //background: linear-gradient(to right bottom, #e67700, #d9480f);
+        //background: linear-gradient(to right bottom, #ffd43b, #d9480f);
+        background: linear-gradient(to right bottom, #ffd43b, #e67700);
+      }
+    }
+  }
+ /* background-color: orangered;
+  height: 50rem;
+  transition: all .8s;
+
+  &:hover {
+    transform: rotateY(180deg);
+    //transform: rotateY(45deg);
+  } */
+
+  //.card:hover .card__side
+  &:hover &__side--front {
+    //transform: rotateY(-180deg);
+  }
+  &:hover &__side--back {
+    //transform: rotateY(0);
+  }
+
+  &:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+    cursor: pointer;
+  }
+
+  &:active {
+    transform: translateY(-1rem) scale(1);
+  }
+
+  //FRONT SIDE STYLING
+  &__picture {
+
+    background-size: cover;
+    //height: 23rem;
+    height: 24rem;
+    //background-blend-mode: screen;
+
+    &-1 {
+      //background-image:linear-gradient(to right bottom, #ffd43b, #e67700), url(../images/vas-1.JPG);
+      background-image: url(../images/vas-4.JPG);
+    }
+    &-2 {
+      background-image: url(../images/vas-2.JPG);
+    }
+    &-3 {
+      background-image: url(../images/vas-3.jpg);
+    }
+    &-4 {
+      //background-image: url(../images/vas-1.JPG);
+    }
+
+  }
+
+  &__heading {
+    //font-size: 2.8rem;
+    font-size: 2.4rem;
+    //font-weight: 300;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    //padding: 2rem 1rem 0 1rem;
+    padding: 2rem 1.5rem 0 1.5rem;
+    //color: white;
+  /*  position: absolute;
+    top: 12rem;
+    right: 2rem ;*/
+  }
+
+  &__details {
+    //padding: 3rem;
+    padding: 2rem;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    //font-size: 1.5rem;
+    //padding: 1rem;
+    ul {
+      list-style: none;
+    /*  width: 80%;
+      margin: 0 auto;*/
+
+      li {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem;
+
+        &:not(:last-child) {
+          border-bottom: 1px solid #eee;
+        }
+      }
+    }
+  }
+
+  //Back side styling
+  &__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+  }
+
+  &__price-box {
+
+    color: white;
+    margin-bottom: 8rem;
+
+  }
+  &__price-only {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+  &__price-value {
+    font-size: 6rem;
+    font-weight: 100;
+
+  }
+
+}

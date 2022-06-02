@@ -14,12 +14,25 @@
     /*width: 20rem;*/
 }
 
+.african-print {
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("images/contour.png");*/
+    background-image: url("images/contour.png");
+    /*background-image: url("images/africanprint.png");*/
+    /*background-repeat: repeat;*/
+    /*background-size: cover;*/
+}
+
 .footer {
     /*border-left: 2px inset #f8f9fa;*/
     /*border-style: inset;*/
     /*border-left: 1px solid black;*/
     /*border-left: 1px solid #f8f9fa;*/
     border-left: .5px inset #f8f9fa;
+    /*212529*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("images/contour.png");
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("images/africanprint.png");*/
+    background-size: cover;
+    /*background-repeat: repeat;*/
 }
 
 .footer-social {
@@ -97,7 +110,7 @@ section-two:hover .message {
  }
 
 .section-two:hover .content-wrap .para {
-    opacity: 1;
+    /*opacity: 1;*/
 }
 
 .section-three:hover .content-wrap .para {
@@ -115,8 +128,8 @@ section-two:hover .message {
 }
 
 .content-wrap .para {
-    opacity: 0;
-    transition: all 1s;
+    /*opacity: 0;*/
+    /*transition: all 1s;*/
 }
 
 .tagline {

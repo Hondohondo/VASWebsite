@@ -55,14 +55,18 @@
 
 .section-two {
   //background-color: red;
+  //background-image: linear-gradient(to right bottom, #ff8787, #c92a2a);
   //background-image: url("../images/vas-4.JPG");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../images/vas-4.JPG");
   //background-image: linear-gradient(to right,#ff6b6b, #c92a2a), url("../images/vas-1.JPG");
-  //background-image: linear-gradient(to right, rgba(255, 135, 135, 0.8), rgba(201, 42, 42, 0.8)), url("../images/vas-1.JPG");
+  //background-image: linear-gradient(to right, rgba(255, 135, 135, 0.8), rgba(201, 42, 42, 0.8)), url("../images/vas-4.JPG");
 
   //opacity: .2;
 
   background-size: cover;
-  height: 60rem;
+  background-position: center;
+  //height: 60rem;
+  height: 32rem;
 
   color: white;
 }

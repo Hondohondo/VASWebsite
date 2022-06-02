@@ -1,0 +1,56 @@
+.section-zigzag {
+  //padding: 12rem 0 0 0;
+}
+
+.vas-photo {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.card-image {
+  height: 240px;
+  overflow: hidden;
+}
+
+.card-image img {
+  border-radius: 12px;
+  width: 100%;
+  display: block;
+}
+
+.card-1 {
+  border-radius: 12px;
+  //background: #ffc9c9;
+  background: #fff5f5;
+}
+.card-2 {
+  border-radius: 12px;
+  //background: #e9ecef;
+  //background: #f8f9fa;
+  background: #edf2ff;
+}
+.card-3 {
+  border-radius: 12px;
+  //background: #fcc2d7;
+  background: #fff0f6;
+}
+.card-4 {
+  border-radius: 12px;
+  //background: #fcc2d7;
+  background: #f8f0fc;
+}
+.card-5 {
+  border-radius: 12px;
+  //background: #fcc2d7;
+  background: #f3f0ff;
+}
+
+.card-content {
+  padding: 12px;
+}
+
+.italic-para {
+  font-style: italic;
+  padding-bottom: 12px;
+}
