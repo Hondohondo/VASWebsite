@@ -416,6 +416,22 @@ iframe {
 .main-nav li a:active {
   border-bottom: 2px solid #c92a2a;
 }
+.main-nav .cta:link,
+.main-nav .cta:visited {
+  background: #c92a2a;
+  color: #fff5f5;
+  padding: 8px 16px;
+  border-radius: 8px;
+  display: inline-block;
+  border-bottom: 0px solid transparent;
+  transition: all 0.3s;
+}
+.main-nav .cta:hover,
+.main-nav .cta:active {
+  background: #ff6b6b;
+  background: #f03e3e;
+  border-bottom: 0px solid #c92a2a;
+}
 
 .nav-bar {
   z-index: 2;
@@ -489,6 +505,14 @@ iframe {
   color: white;
 }
 
+.who-we-are {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../who-we-are/vas-who-we-are-1.jpg");
+}
+
+.donate-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../images/vas-2.JPG");
+}
+
 .section-three {
   position: relative;
   background-color: #212529;
@@ -514,8 +538,37 @@ iframe {
   color: white;
 }
 
+/*
+DONATE PAGE
+*/
+.donate:link,
+.donate:visited {
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2rem;
+  /*  background: #c92a2a;
+    color: #fff5f5;*/
+  background: #fff5f5;
+  color: #c92a2a;
+  padding: 8px 16px;
+  border-radius: 8px;
+  display: inline-block;
+  border-bottom: 0px solid transparent;
+  transition: all 0.3s;
+}
+
+.donate:hover,
+.donate:active {
+  background: #fff;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
+  border-bottom: 0px solid #c92a2a;
+}
+
 body {
   font-family: "Arvo", serif;
+  line-height: 1.6;
 }
 
 .heading-one {

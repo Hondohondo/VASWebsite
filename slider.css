@@ -1,0 +1,234 @@
+#wrapper {
+    width: 2200px;
+    transform: translate3d(0, 0, 0);
+     transition: transform .5s ease-in-out;
+}
+
+.wide-video-container {
+
+}
+
+.video-composition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-composition iframe {
+    width: 640px;
+    height: 360px;
+}
+
+.section-transition {
+    background-image: url("sliders/vas-about-10.JPG");
+    background-size: cover;
+    /*background-position: center;*/
+    background-position: top;
+    background-attachment: fixed;
+    /*transform: scale(.90);*/
+
+}
+
+#wrapper1 {
+    width: 2200px;
+    transform: translate3d(0, 0, 0);
+     transition: transform .5s ease-in-out;
+}
+#wrapper2 {
+    width: 2200px;
+    transform: translate3d(0, 0, 0);
+     transition: transform .5s ease-in-out;
+}
+#wrapper3 {
+    width: 2200px;
+    transform: translate3d(0, 0, 0);
+     transition: transform .5s ease-in-out;
+}
+.content {
+    float: left;
+    width: 550px;
+    height: 350px;
+    white-space: normal;
+    background-repeat: no-repeat;
+}
+/*#itemOne {
+    background-color: #ADFF2F;
+    background-image: url("//www.kirupa.com/images/blueSquare.png");
+}
+#itemTwo {
+    background-color: #FF7F50;
+    background-image: url("//www.kirupa.com/images/yellowSquare.png");
+}
+#itemThree {
+    background-color: #1E90FF;
+    background-image: url("//www.kirupa.com/images/pinkSquare.png");
+}
+#itemFour {
+    background-color: #DC143C;
+    background-image: url("//www.kirupa.com/images/graySquare.png");
+}*/
+#itemOne {
+    background-image: url("sliders/vas-about-3.jpg");
+    background-size: cover;
+}
+#itemTwo {
+    background-image: url("sliders/vas-about-2.jpg");
+    background-size: cover;
+}
+#itemThree {
+    background-image: url("sliders/vas-about-1.jpg");
+    background-size: cover;
+}
+#itemFour {
+    background-image: url("sliders/vas-about-4.jpg");
+    background-size: cover;
+}
+
+#item6 {
+    background-image: url("sliders/vas-about-9.jpg");
+    background-size: cover;
+}
+#item7 {
+    background-image: url("sliders/vas-about-7.jpg");
+    background-size: cover;
+}
+#item5 {
+    background-image: url("sliders/vas-about-5.jpg");
+    background-size: cover;
+}
+#item8 {
+    background-image: url("sliders/vas-about-8.jpg");
+    background-size: cover;
+}
+
+#item06 {
+    background-image: url("who-we-are/who-we-are-2.jpg");
+    background-size: cover;
+}
+#item07 {
+    background-image: url("who-we-are/who-we-are-3.jpg");
+    background-size: cover;
+}
+#item05 {
+    background-image: url("who-we-are/who-we-are-4.jpg");
+    background-size: cover;
+}
+#item08 {
+    background-image: url("who-we-are/who-we-are-5.jpg");
+    background-size: cover;
+}
+#item16 {
+    background-image: url("who-we-are/who-we-are-8.jpg");
+    background-size: cover;
+}
+#item17 {
+    background-image: url("who-we-are/who-we-are-7.jpg");
+    background-size: cover;
+}
+#item15 {
+    background-image: url("who-we-are/who-we-are-6.jpg");
+    background-size: cover;
+}
+#item18 {
+    background-image: url("who-we-are/who-we-are-9.jpg");
+    background-size: cover;
+}
+
+#contentContainer {
+    width: 550px;
+    height: 350px;
+    /*border: 5px black solid;*/
+    border: 4px black solid;
+    border-radius: 8px;
+    /*border: 5px #c92a2a solid;*/
+    overflow: hidden;
+}
+#contentContainer3 {
+    width: 550px;
+    height: 350px;
+    /*border: 5px black solid;*/
+    border: 4px black solid;
+    border-radius: 8px;
+    /*border: 5px #c92a2a solid;*/
+    overflow: hidden;
+}
+
+#navLinks, #navLinks1, #navLinks2 {
+    text-align: center;
+    width: 550px;
+}
+
+#navLinks ul, #navLinks1 ul, #navLinks2 ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-top: 6px;
+}
+
+#navLinks ul li, #navLinks1 ul li, #navLinks2 ul li {
+    float: left;
+    text-align: center;
+    margin: 10px;
+    list-style: none;
+    cursor: pointer;
+    background-color: #CCCCCC;
+    padding: 5px;
+    border-radius: 50%;
+    border: black 5px solid;
+}
+
+#navLinks ul li:hover, #navLinks1 ul li:hover, #navLinks2 ul li:hover {
+    /*background-color: #FFFF00;*/
+    background-color: #c92a2a;
+}
+
+#navLinks ul li.active, #navLinks1 ul li.active, #navLinks2 ul li.active {
+    background-color: #333333;
+    color: #FFFFFF;
+    outline-width: 7px;
+}
+
+#navLinks ul li.active:hover, #navLinks1 ul li.active:hover, #navLinks2 ul li.active:hover {
+    background-color: #484848;
+    color: #FFFFFF;
+}
+
+#navLinks3 {
+    text-align: center;
+    width: 550px;
+}
+
+#navLinks3 ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-top: 6px;
+}
+
+#navLinks3 ul li {
+    float: left;
+    text-align: center;
+    margin: 10px;
+    list-style: none;
+    cursor: pointer;
+    background-color: #CCCCCC;
+    padding: 5px;
+    border-radius: 50%;
+    border: black 5px solid;
+}
+
+#navLinks3 ul li:hover {
+    /*background-color: #FFFF00;*/
+    background-color: #c92a2a;
+}
+
+#navLinks3 ul li.active {
+    background-color: #333333;
+    color: #FFFFFF;
+    outline-width: 7px;
+}
+
+#navLinks3 ul li.active:hover {
+    background-color: #484848;
+    color: #FFFFFF;
+}

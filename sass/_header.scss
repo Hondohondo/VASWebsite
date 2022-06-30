@@ -43,7 +43,31 @@
     }
   }
 
+  .cta:link,
+  .cta:visited
+  {
+    background: #c92a2a;
+    color: #fff5f5;
+    padding: 8px 16px;
+    border-radius: 8px;
+    display: inline-block;
+    border-bottom: 0px solid transparent;
+
+    transition: all .3s;
+  }
+  .cta:hover,
+  .cta:active
+  {
+    background: #ff6b6b;
+    background: #f03e3e;
+    //color: #adb5bd;
+    border-bottom: 0px solid #c92a2a;
+
+  }
+
 }
+
+
 .nav-bar {
   z-index: 2;
 }

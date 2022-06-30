@@ -3,16 +3,16 @@
     <div class="footer-nav margin-bottom-80">
         <ul class="unordered-list list-style-none white width-720 margin-center display-flex flex-justify-between">
             <li>
-                <a href="about.html" class="footer-links text-decoration-none">About</a>
+                <a href="about.php" class="footer-links text-decoration-none">About</a>
             </li>
             <li>
-                <a href="media.html" class="footer-links text-decoration-none">Media</a>
+                <a href="media.php" class="footer-links text-decoration-none">Media</a>
             </li>
             <li>
                 <a href="programs.html" class="footer-links text-decoration-none">Programs</a>
             </li>
             <li>
-                <a href="impact.html" class="footer-links text-decoration-none">Impact</a>
+                <a href="impact.php" class="footer-links text-decoration-none">Impact</a>
             </li>
             <li>
                 <a href="#" class="footer-links text-decoration-none">Contact</a>
@@ -42,3 +42,4 @@
     </div>
 
 </footer>
+<script src="slider.js"></script>

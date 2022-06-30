@@ -21,7 +21,7 @@
 
         <div class="content-wrap">
             <h2 class="font-size-24 line-height-10 letter-spacing-4 ">
-                About VAS
+                IMPACT (PROFILING)
             </h2>
             <p class="para width-640 padding-top-32">
 <!--                VAS ENVISION TO INCREASE THE MARKET SHARE & VISIBILITY OF EVERYDAY AFRICAN STORY, PARTICULARLY STORIES OF YOUTH IN CREATIVE INDUSTRIES.-->

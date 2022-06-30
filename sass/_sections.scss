@@ -53,6 +53,8 @@
 }
 
 
+
+
 .section-two {
   //background-color: red;
   //background-image: linear-gradient(to right bottom, #ff8787, #c92a2a);
@@ -69,6 +71,14 @@
   height: 32rem;
 
   color: white;
+}
+
+.who-we-are {
+  //background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../images/vas-1.JPG");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../who-we-are/vas-who-we-are-1.jpg");
+}
+.donate-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../images/vas-2.JPG");
 }
 
 
@@ -111,4 +121,41 @@
   height: 60rem;
 
   color: white;
+}
+
+
+/*
+DONATE PAGE
+*/
+
+
+
+.donate:link,
+.donate:visited
+{
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2rem;
+/*  background: #c92a2a;
+  color: #fff5f5;*/
+  background: #fff5f5;
+  color: #c92a2a;
+  padding: 8px 16px;
+  border-radius: 8px;
+  display: inline-block;
+  border-bottom: 0px solid transparent;
+
+  transition: all .3s;
+}
+.donate:hover,
+.donate:active
+{
+  //background: #f8f9fa;
+  //background: #ffc9c9;
+  background: #fff;
+  box-shadow: 1px 2px 3px rgba(0,0,0,.4);
+  border-bottom: 0px solid #c92a2a;
+
 }

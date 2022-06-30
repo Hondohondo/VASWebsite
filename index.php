@@ -9,6 +9,8 @@
 </head>
 <body>
 
+<!--vashub.org-->
+
 
 
 <div class="vertical-ribbon">
@@ -329,6 +331,7 @@ Live adventureous like you have never have before
                     Your browser is not supported!
                 </video>-->
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/GlXy_fkl4HM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
             </div>
         </div>
     </section>
