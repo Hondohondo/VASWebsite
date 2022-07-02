@@ -5,6 +5,15 @@
   border-radius: 8px;
 }
 
+.logo-photo {
+  height: 120px;
+  display: block;
+}
+
+.logo-3 {
+  height: 80px;
+}
+
 .card-image {
   height: 240px;
   overflow: hidden;

@@ -42,16 +42,16 @@ function changePosition(link) {
     var position = link.getAttribute("data-pos");
     var position1 = link.getAttribute("data-pos1");
     var position2 = link.getAttribute("data-pos2");
-    var position3 = link.getAttribute("data-pos3");
+    // var position3 = link.getAttribute("data-pos3");
 
     var translateValue = "translate3d(" + position + ", 0px, 0)";
     var translateValue1 = "translate3d(" + position1 + ", 0px, 0)";
-    var translateValue2 = "translate3d(" + position2 + ", 0px, 0)";
-    var translateValue3 = "translate3d(" + position3 + ", 0px, 0)";
+   var translateValue2 = "translate3d(" + position2 + ", 0px, 0)";
+    // var translateValue3 = "translate3d(" + position3 + ", 0px, 0)";
     wrapper.style.transform = translateValue;
-    // wrapper1.style.transform = translateValue1;
-    wrapper2.style.transform = translateValue2;
-    wrapper3.style.transform = translateValue3;
+    wrapper1.style.transform = translateValue1;
+ wrapper2.style.transform = translateValue2;
+    // wrapper3.style.transform = translateValue3;
 
     link.classList.add("active");
 }

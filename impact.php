@@ -21,7 +21,7 @@
 
         <div class="content-wrap">
             <h2 class="font-size-24 line-height-10 letter-spacing-4 ">
-                IMPACT (PROFILING)
+<!--                IMPACT (PROFILING)-->
             </h2>
             <p class="para width-640 padding-top-32">
 <!--                VAS ENVISION TO INCREASE THE MARKET SHARE & VISIBILITY OF EVERYDAY AFRICAN STORY, PARTICULARLY STORIES OF YOUTH IN CREATIVE INDUSTRIES.-->
@@ -34,12 +34,12 @@
 <!--        <div class="content-column max-width-720 margin-top-96 margin-bottom-96 margin-left-auto margin-right-auto line-height-16">-->
         <div class="content-column line-height-16 max-width-720">
 
-            <h2 class="heading-two">
+            <h2>
                 INDIVIDUAL LEVEL:
             </h2>
 
             <p class="margin-bottom-20">
-                All programs and activities are designed to boost self-esteem and provide talented youth with alternatives to unemployment/involvement in informal sectors. Over the 2 years, talented youth in our database have been given access to public domains to showcase talent, get free advertising and extra revenue opportunities. Other talented youths gained recognition and value to create more jobs/tenders. Youth are also encouraged to explore variety of other extra-curricular activities in the hope that they will continue to pursue these activities after the completion of the program, whether they do so at VAS Hub or at their own.
+                All programs and activities are designed to build capacity and provide talented youth with alternatives to unemployment/involvement in informal economy. Creatives in our network have been given access to public domains to showcase their talent, get free advertising and earn extra revenue opportunities.
             </p>
         </div>
      <!--   <div class="content-photo flex-basis-50-percent ">
@@ -47,35 +47,27 @@
         </div>-->
     </section>
 
-    <section class="section-zigzag padding-top-80 max-width-1040 margin-center gap-40 display-flex">
-        <div class="content-photo flex-basis-50-percent ">
-          <img src="images/vas-4.JPG" alt="VAS Art - Girl wearing mask" class="vas-photo">
+    <section class="section-zigzag padding-top-64 max-width-1040 margin-center gap-40 display-flex">
+        <div class="content-photo flex-basis-33-percent ">
+          <img src="artists/ray-van-by-kimweri.jpg" alt="VAS Art - Ray Van Painting by Kimweri" class="vas-photo">
             <p class="margin-top-20">
-                Artist Ayoub Kimweri, received recognition and partnered with WCB (established music label in East Africa to paint a mural in the city. He recently got another opportunity to work with the German Embassy in Tanzania to paint series of art message fostering understanding and engagement between the people of Germany and Tanzania
+                Artist Ayoub Kimweri, received recognition and partnered with WCB (established music label in East Africa to paint a mural of a well-established artist in Dar es Salaam.
             </p>
       </div>
-        <div class="content-photo flex-basis-50-percent ">
-          <img src="images/vas-4.JPG" alt="VAS Art - Girl wearing mask" class="vas-photo">
+        <div class="content-photo flex-basis-33-percent ">
+          <img src="artists/artist-jordan.jpg" alt="VAS Art - Artist Jordan Painting" class="vas-photo">
             <p class="margin-top-20">
-                Artist Jordan, has transformed the ambiance at Bahari beach with a series of artworks hanging around the beach. His work caught the eye of Tanzania’s International artist, Harmonize and Uganda’s Spice Diana who utilized the area to shoot ‘Kokonya’ music video. Jordan received a small support fund from VAS and is now looking for local government license to open his beach art gallery to exploit this area, which is a weekend destination for many locals and tourists.
+                Artist Jordan, has transformed the ambiance at Bahari beach with a series of positive artworks hanging around the beach.
             </p>
       </div>
+        <div class="content-photo flex-basis-33-percent">
+            <img src="artists/painting-on-rock.JPG" alt="VAS Art - Painting on Rock by Tibasima" class="vas-photo">
+            <p class="margin-top-20">
+                Edward Tibasima has been able to register his art business “Color Mwanza” and chase profitable opportunities by replicating our model.
+            </p>
+        </div>
     </section>
-    <section class="section-zigzag padding-top-80 max-width-720 margin-center">
-        <div class="content-photo">
-          <img src="images/vas-4.JPG" alt="VAS Art - Girl wearing mask" class="vas-photo">
-            <p class="margin-top-20">
-                Edward Tibasima and two other artists from VAS Hub joined hands and registered their art business “Colour Tanzania” to promote grass root training for artists. VAS helped Color Tanzania to identify revenue streams through vehicle marketing (including painting cars, Bajaj and motorcycles) and office branding. With a registered business entity Edward went on to pursue tenders with a health IT office named “Mobile Afya TZ”. Edward is now working to paint mural artworks in various tourist locations under the Office of the President.
-            </p>
-      </div>
-      <!--  <div class="content-photo flex-basis-50-percent ">
-          <img src="images/vas-4.JPG" alt="VAS Art - Girl wearing mask" class="vas-photo">
-            <p class="margin-top-20">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis enim iusto quis recusandae repellendus sint! Amet aut, blanditiis, ducimus magnam magni mollitia nesciunt odit perferendis placeat sequi soluta tempora veritatis?
-            </p>
-      </div>-->
-    </section>
-
+<!--
     <section class="section-zigzag padding-top-120 max-width-960 margin-center gap-32 display-flex flex-align-center">
         <div class="content-column line-height-16 max-width-720">
             <h2 class="heading-two">
@@ -85,9 +77,6 @@
                 We have managed to Build partnerships with institutions and collaborate in multidisciplinary initiatives with stakeholders such as marketing agencies, development organizations, art museums, AL for the Arts, and investment banking professionals. Communicating our impact online increases the visibility of our work and goes a long way to sell a compelling narrative, build traction and position collaborators/partners as proud supporters of innovation in Tanzania’s creative industry.
             </p>
         </div>
-     <!--   <div class="content-photo flex-basis-50-percent ">
-            <img src="images/vas-4.JPG" alt="VAS Art - Girl wearing mask" class="vas-photo">
-        </div>-->
     </section>
 
     <section class="section-zigzag padding-top-80 max-width-1040 margin-center gap-40 display-flex">
@@ -109,43 +98,51 @@
                ANF...
             </p>
       </div>
-    </section>
+    </section>-->
 
     <section class="section-zigzag padding-top-120 max-width-960 margin-center gap-32 display-flex flex-align-center">
         <div class="content-column line-height-16 max-width-720">
-            <h2 class="heading-two">
+            <h2>
                 COMMUNITY LEVEL:
             </h2>
             <p class="margin-bottom-20">
-                The community and nearby region, benefit by being exposed to readily accessible art. Our street art program creates free public art that connect, educate and inspire communities. By selecting areas and fixing up walls to paint murals, we transform and revitalize the aesthetic value in those areas. Our team often facilitates preliminary conversation with communities to identify whatever that is unique or significant in that area that can be incorporated in the mural artworks. This information is then briefed to artists during the creative process. You can look at all different aspects of what art looks like in the community, but it is very strongly linked to the culture
+                The community and nearby regions benefit by being exposed to readily accessible art. By selecting areas, fixing up walls and installing murals, we transform and revitalize the value in these neighborhoods.
             </p>
             <p class="margin-bottom-20">
-                We believe with more support given to this form of art, the more a culture of arts, patriotism, and inspiration is built around its youth and society as a whole. This way the community becomes a more tangible asset. For example, Zingatia street art campaigns remain relevant in 2021 and shows the importance of engaging with the mass in development area and things that impact life and death. The campaign had significant impact in neighborhoods including Ilala, Temeke, Vingunguti, Mwananyamala, Tandale, Kinondoni and Kigogo.
+                We also facilitate community dialogues to interpret murals and foster general understanding of the artworks installed in the neighborhoods. This way our artworks have proven to engage, educate and inspire both younger and older demographic groups.
             </p>
         </div>
-     <!--   <div class="content-photo flex-basis-50-percent ">
-            <img src="images/vas-4.JPG" alt="VAS Art - Girl wearing mask" class="vas-photo">
-        </div>-->
     </section>
 
-    <section class="section-zigzag padding-top-80 max-width-1040 margin-center gap-40 display-flex">
+    <section class="section-zigzag padding-top-64 max-width-1040 margin-center gap-40 display-flex">
         <div class="content-photo flex-basis-33-percent ">
-          <img src="images/vas-4.JPG" alt="VAS Art - Girl wearing mask" class="vas-photo">
-            <p class="margin-top-20">
-               ...
-            </p>
+            <img src="impact/vas-karina-mwananyamala.jpg" alt="VAS Art - Mwananyamala Karina" class="vas-photo">
+        </div>
+        <div class="content-photo flex-basis-33-percent ">
+            <img src="impact/vas-mwanza.JPG" alt="VAS Art - Mwanza Painting" class="vas-photo">
+        </div>
+        <div class="content-photo flex-basis-33-percent">
+            <img src="impact/vas-karina-kigogo.jpg" alt="VAS Art - Kigogo Karina" class="vas-photo">
+        </div>
+    </section>
+
+    <section class="section-zigzag padding-top-96 max-width-960 margin-center gap-32 display-flex flex-align-center">
+        <div class="content-column line-height-16 max-width-720">
+            <h2>
+               SUPPORTED BY:
+            </h2>
+        </div>
+    </section>
+
+    <section class="section-zigzag padding-top-40 padding-bottom-80 max-width-1040 margin-center gap-40 display-flex-center-both">
+        <div class="content-photo flex-basis-33-percent ">
+          <img src="logos/africa-no-filter.png" alt="african no filter logo" class="logo-photo logo-1">
       </div>
         <div class="content-photo flex-basis-33-percent ">
-          <img src="images/vas-4.JPG" alt="VAS Art - Girl wearing mask" class="vas-photo">
-            <p class="margin-top-20">
-           ...
-            </p>
+          <img src="logos/mastercard.jpg" alt="mastercard logo" class="logo-photo logo-2">
       </div>
         <div class="content-photo flex-basis-33-percent ">
-          <img src="images/vas-4.JPG" alt="VAS Art - Girl wearing mask" class="vas-photo">
-            <p class="margin-top-20">
-            ....
-            </p>
+          <img src="logos/swiss-embassy.png" alt="swiss embassy logo" class="logo-photo logo-3">
       </div>
     </section>
 

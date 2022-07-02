@@ -44,7 +44,7 @@ $pageTitle='What we do';
         <div class="content-photo flex-basis-50-percent ">
 <!--            <img src="images/vas-4.JPG" alt="VAS Art - Girl wearing mask" class="vas-photo">-->
             <div class="content-photo margin-top-40 flex-basis-50-percent ">
-                <!--<div id="contentContainer">
+                <div id="contentContainer">
                     <div id="wrapper">
                         <div id="item05" class="content">
 
@@ -68,7 +68,7 @@ $pageTitle='What we do';
                         <li class="itemLinks" data-pos="-1100px"></li>
                         <li class="itemLinks" data-pos="-1650px"></li>
                     </ul>
-                </div>-->
+                </div>
             </div>
 
         </div>
@@ -130,10 +130,10 @@ $pageTitle='What we do';
 
             <div id="navLinks1">
                 <ul>
-                  <!--  <li class="itemLinks" data-pos1="0px"></li>
+                   <li class="itemLinks" data-pos1="0px"></li>
                     <li class="itemLinks" data-pos1="-550px"></li>
                     <li class="itemLinks" data-pos1="-1100px"></li>
-                    <li class="itemLinks" data-pos1="-1650px"></li>-->
+                    <li class="itemLinks" data-pos1="-1650px"></li>
                 </ul>
             </div>
         </div>
@@ -237,27 +237,25 @@ $pageTitle='What we do';
             <p class="margin-bottom-20">
                 The work we have done in Dar es Salaam-Tanzania for the past two years has given us a lot of insight and know how in arts, storytelling, mass communication, innovation and project management. Based on our track record, we have been exploring how to scale our operation outside Dar es Salaam to other regions across the continent.
             </p>
-
-
         </div>
 
     </section>
 
 
-    <section class="section-zigzag padding-top-80 padding-bottom-96  max-width-960 margin-center">
-        <div class="wide-image-container">
+    <section class="section-zigzag display-flex-center-both padding-top-80 padding-bottom-96  max-width-960 margin-center">
+    <!--    <div class="wide-image-container">
             <img src="images/vas-5.jpg" alt="" class="display-block width-100-percent border-radius-8">
-        </div>
-        <div class="content-photo margin-top-40 flex-basis-50-percent ">
+        </div>-->
+        <div class="content-photo margin-top-20 flex-basis-50-percent ">
             <div id="contentContainer">
-                <div id="wrapper">
+                <div id="wrapper2">
                     <div id="itemOne" class="content">
 
                     </div>
-                    <div id="itemTwo" class="content">
+                    <div id="itemThree" class="content">
 
                     </div>
-                    <div id="itemThree" class="content">
+                    <div id="itemTwo" class="content">
 
                     </div>
                     <div id="itemFour" class="content">
@@ -266,12 +264,12 @@ $pageTitle='What we do';
                 </div>
             </div>
 
-            <div id="navLinks">
+            <div id="navLinks2">
                 <ul>
-                    <li class="itemLinks" data-pos="0px"></li>
-                    <li class="itemLinks" data-pos="-550px"></li>
-                    <li class="itemLinks" data-pos="-1100px"></li>
-                    <li class="itemLinks" data-pos="-1650px"></li>
+                    <li class="itemLinks" data-pos2="0px"></li>
+                    <li class="itemLinks" data-pos2="-550px"></li>
+                    <li class="itemLinks" data-pos2="-1100px"></li>
+                    <li class="itemLinks" data-pos2="-1650px"></li>
                 </ul>
             </div>
         </div>
