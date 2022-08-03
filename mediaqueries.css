@@ -1,0 +1,272 @@
+.homepage-video {
+    display: block;
+    width: 480px;
+    height: 270px;
+    margin: 0 auto;
+
+}
+
+.cards-news {
+
+}
+
+.card {
+    flex-basis: 33.33%;
+}
+
+
+.section-3-slides {
+    flex-wrap: wrap;
+    max-width: 112rem;
+    gap: 40px;
+}
+
+.section-3-slides .content-photo {
+    flex-basis: 30%;
+}
+
+.last-photos {
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.last-photos .content-photo {
+    flex-basis: 30%;
+}
+
+/*Tablet Landscape*/
+@media (max-width: 1200px) { /*width < 1200px*/
+    html {
+        font-size: 56.25%;
+        /*1 rem is 9px instead of 10px | 9/16 = 56.25*/
+    }
+
+    body {
+
+    }
+
+    .section-cards {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .section-features {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .cards-news {
+        /*gap: 4.8rem;*/
+        gap: 2.4rem;
+
+    }
+
+    .youtube-videos {
+        gap: 4.8rem;
+        /*gap: 2.4rem;*/
+    }
+
+    .homepage-video {
+        width: 400px;
+        height: 225px;
+    }
+
+    .section-3-slides {
+        max-width: 96rem;
+        gap: 48px;
+    }
+
+    .last-photos {
+        max-width: 96rem;
+        gap: 48px;
+    }
+
+    .last-photos .content-photo {
+        flex-basis: 40%;
+    }
+
+    .section-3-slides .content-photo p {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1040px) {
+
+    .section-zigzag {
+        flex-direction: column;
+        max-width: 72rem;
+    }
+
+    .section-3-slides {
+        max-width: 72rem;
+        gap: 64px;
+    }
+
+    .section-3-slides .content-photo p {
+        margin-top: 0;
+    }
+
+    .last-photos {
+        max-width: 72rem;
+    }
+
+    .last-photos .content-photo .vas-photo {
+        width: 60%;
+    }
+
+    .section-team {
+        max-width: 720px;
+    }
+
+    .para-team {
+        max-width: 100%;
+    }
+
+    .team-cards {
+        /*flex-direction: column;*/
+    }
+
+    .teamcard {
+        flex-basis: 45%;
+    }
+
+    .card-image {
+        /*height: 480px;*/
+    }
+
+    .card-content {
+        /*padding: 24px 48px;*/
+    }
+
+    .ala {
+        order: -1;
+    }
+
+    .cnbc {
+        order: -1;
+    }
+
+}
+
+
+    /*Tablet Portrait*/
+@media (max-width: 900px) { /*width < 900px*/
+    html {
+        /*font-size: 50%;*/
+        /*1 rem is 8px | 8/16 = 50*/
+    }
+
+    .heading-two {
+
+    }
+
+    .youtube-videos {
+        flex-direction: column;
+    }
+
+    .homepage-video {
+        width: 480px;
+        height: 270px;
+    }
+
+    .cards-news {
+        flex-direction: column;
+        max-width: 50rem;
+      /*  padding-top: 4.0rem;
+        padding-bottom: 9.6rem;*/
+        gap: 4.8rem;
+
+    }
+
+    .card {
+        /*flex-basis: 100%;*/
+    }
+
+    .card__side {
+        height: 45rem;
+    }
+
+    .section-cards {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+
+    .section-features {
+        padding-top: 8rem;
+        /*padding-bottom: 8rem;*/
+    }
+
+
+}
+
+@media (max-width: 800px) {
+
+    .section-zigzag {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    #impact .content-column {
+      /*  padding-left: 24px;
+        padding-right: 24px;*/
+    }
+
+    .supported-by {
+       /* width: 92%;
+        margin: 0 auto;*/
+    }
+
+    .section-team {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .para-team {
+        /*max-width: 100%;*/
+    }
+
+    .teamcard {
+        flex-basis: 47%;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .team-cards {
+        /*flex-wrap: nowrap;*/
+        flex-direction: column;
+    }
+    .teamcard {
+        /*flex-basis: 80%;*/
+        width: 80%;
+        margin: 0 auto;
+    }
+    .footer {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .unordered-list {
+        /*justify-content: space-around;*/
+        flex-direction: column;
+        /*justify-content: center;*/
+        align-items: center;
+        gap: 3.2rem;
+    }
+
+    .footer-social {
+        flex-direction: column;
+        align-items: center;
+        gap: 3.2rem;
+
+    }
+
+}
+
+@media (max-width: 500px) {
+    .teamcard {
+        width: 100%;
+    }
+}

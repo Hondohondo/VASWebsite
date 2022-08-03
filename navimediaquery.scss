@@ -1,0 +1,76 @@
+html, body {
+  /*only works if there is nothing absolutely positioned in body*/
+  overflow-x: hidden;
+}
+
+
+@media (max-width: 1040px) {
+
+}
+
+@media (max-width: 900px) {
+  /*Mobile Navi*/
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .main-navi {
+    background-color: rgba(255, 255, 255, 0.97);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    //height: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    //transition: all .5s;
+    transition: all 0.5s ease-in;
+
+    transform: translateX(100%);
+
+    /*
+    Hide the mobile navi
+    display: none = allows no transition
+    */
+    /*1. Hide the element visually*/
+    opacity: 0;
+    /*2. Make it unaccessible to mouse and keyboard*/
+    pointer-events: none;
+    /*3. Hide it from screen readers*/
+    visibility: hidden;
+
+  }
+
+  .navi-open .main-navi {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+
+    transform: translateX(0);
+  }
+
+  .navi-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .navi-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-navi-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-navi-link:link,
+  .main-navi-link:visited {
+    font-size: 3rem;
+  }
+
+
+}

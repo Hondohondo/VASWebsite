@@ -10,7 +10,6 @@ body {
 .heading-one {
   color: #fff;
   text-transform: uppercase;
-
   backface-visibility: hidden;
   margin-bottom: 6rem;
 
@@ -21,7 +20,6 @@ body {
   font-size: 6rem;
   font-weight: 400;
   letter-spacing: 3.7rem;
-
   animation-name: moveInLeft;
   animation-duration: 1s;
   animation-timing-function: ease-out;
@@ -40,7 +38,6 @@ body {
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: 1.7rem;
-
   animation: moveInRight 1s ease-out;
 
 }

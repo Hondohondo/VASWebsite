@@ -4,6 +4,24 @@
      transition: transform .5s ease-in-out;
 }
 
+#wrapper5 {
+    /*width: 1200px;*/
+    width: 960px;
+    transform: translate3d(0, 0, 0);
+     transition: transform .5s ease-in-out;
+}
+#wrapper6 {
+    /*width: 1200px;*/
+    width: 960px;
+    transform: translate3d(0, 0, 0);
+     transition: transform .5s ease-in-out;
+}#wrapper7 {
+    /*width: 1200px;*/
+    width: 960px;
+    transform: translate3d(0, 0, 0);
+     transition: transform .5s ease-in-out;
+}
+
 .wide-video-container {
 
 }
@@ -51,6 +69,13 @@
     white-space: normal;
     background-repeat: no-repeat;
 }
+.content5 {
+    float: left;
+    width: 320px;
+    height: 213px;
+    white-space: normal;
+    background-repeat: no-repeat;
+}
 /*#itemOne {
     background-color: #ADFF2F;
     background-image: url("//www.kirupa.com/images/blueSquare.png");
@@ -67,6 +92,62 @@
     background-color: #DC143C;
     background-image: url("//www.kirupa.com/images/graySquare.png");
 }*/
+#item5a{
+    background-image: url("impact/tibasima-1.jpg");
+    background-size: cover;
+}
+#item6a {
+    background-image: url("impact/tibasima-2.jpg");
+    background-size: cover;
+}
+#item7a {
+    background-image: url("impact/tibasima-3.png");
+    background-size: cover;
+}
+
+#item5b{
+    background-image: url("impact/jordan-1.jpg");
+    background-size: cover;
+}
+#item6b {
+    background-image: url("impact/jordan-2.PNG");
+    background-size: cover;
+}
+#item7b {
+    background-image: url("impact/jordan-3.jpg");
+    background-size: cover;
+}
+
+#item5c{
+    background-image: url("impact/kimweri-1.jpg");
+    background-size: cover;
+}
+#item6c {
+    background-image: url("impact/kimweri-2.jpg");
+    background-size: cover;
+}
+#item7c {
+    background-image: url("impact/ray-van-by-kimweri.jpg");
+    background-size: cover;
+}
+
+#item3a{
+    background-image: url("sliders/vas-about-3.jpg");
+    background-size: cover;
+}
+#item3b {
+    background-image: url("who-we-are/vas-11b.jpg");
+    background-size: cover;
+}
+#item3c {
+    background-image: url("who-we-are/vas-11a.jpg");
+    background-size: cover;
+}
+#item3d {
+    background-image: url("who-we-are/vas-11c.jpg");
+    background-size: cover;
+}
+
 #itemOne {
     background-image: url("sliders/vas-about-3.jpg");
     background-size: cover;
@@ -80,57 +161,64 @@
     background-size: cover;
 }
 #itemFour {
-    background-image: url("sliders/vas-about-4.jpg");
+    /*background-image: url("sliders/vas-about-4.jpg");*/
+    background-image: url("sliders/vas-01.jpg");
+    background-size: cover;
+}
+
+#item5 {
+    /*background-image: url("sliders/vas-about-5.jpg");*/
+    background-image: url("sliders/vas-about-08.jpg");
     background-size: cover;
 }
 
 #item6 {
-    background-image: url("sliders/vas-about-9.jpg");
-    background-size: cover;
-}
-#item7 {
     background-image: url("sliders/vas-about-7.jpg");
     background-size: cover;
 }
-#item5 {
-    background-image: url("sliders/vas-about-5.jpg");
+#item7 {
+    background-image: url("sliders/vas-about-09.jpg");
     background-size: cover;
 }
+
 #item8 {
-    background-image: url("sliders/vas-about-8.jpg");
+    background-image: url("sliders/vas-about-9.jpg");
+    background-size: cover;
+}
+
+#item05 {
+    background-image: url("who-we-are/who-we-are-01.jpg");
     background-size: cover;
 }
 
 #item06 {
-    background-image: url("who-we-are/who-we-are-2.jpg");
-    background-size: cover;
-}
-#item07 {
-    background-image: url("who-we-are/who-we-are-3.jpg");
-    background-size: cover;
-}
-#item05 {
-    background-image: url("who-we-are/who-we-are-4.jpg");
-    background-size: cover;
-}
-#item08 {
     background-image: url("who-we-are/who-we-are-5.jpg");
     background-size: cover;
 }
+#item07 {
+    background-image: url("who-we-are/who-we-are-11.jpg");
+    background-size: cover;
+}
+
+#item08 {
+    background-image: url("who-we-are/who-we-are-10.jpg");
+    background-size: cover;
+}
+
+#item15 {
+    background-image: url("who-we-are/who-we-are-12.jpg");
+    background-size: cover;
+}
 #item16 {
-    background-image: url("who-we-are/who-we-are-8.jpg");
+    background-image: url("who-we-are/who-we-are-13.jpg");
     background-size: cover;
 }
 #item17 {
-    background-image: url("who-we-are/who-we-are-7.jpg");
-    background-size: cover;
-}
-#item15 {
-    background-image: url("who-we-are/who-we-are-6.jpg");
+    background-image: url("who-we-are/who-we-are-14.jpg");
     background-size: cover;
 }
 #item18 {
-    background-image: url("who-we-are/who-we-are-9.jpg");
+    background-image: url("who-we-are/who-we-are-15.jpg");
     background-size: cover;
 }
 
@@ -146,6 +234,16 @@
 #contentContainer3 {
     width: 550px;
     height: 350px;
+    /*border: 5px black solid;*/
+    border: 4px black solid;
+    border-radius: 8px;
+    /*border: 5px #c92a2a solid;*/
+    overflow: hidden;
+}
+
+#contentContainer5 {
+    width: 320px;
+    height: 213px;
     /*border: 5px black solid;*/
     border: 4px black solid;
     border-radius: 8px;
@@ -229,6 +327,45 @@
 }
 
 #navLinks3 ul li.active:hover {
+    background-color: #484848;
+    color: #FFFFFF;
+}
+#navLinks5 {
+    text-align: center;
+    width: 320px;
+}
+
+#navLinks5 ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-top: 6px;
+}
+
+#navLinks5 ul li {
+    float: left;
+    text-align: center;
+    margin: 10px;
+    list-style: none;
+    cursor: pointer;
+    background-color: #CCCCCC;
+    padding: 5px;
+    border-radius: 50%;
+    border: black 5px solid;
+}
+
+#navLinks5 ul li:hover {
+    /*background-color: #FFFF00;*/
+    background-color: #c92a2a;
+}
+
+#navLinks5 ul li.active {
+    background-color: #333333;
+    color: #FFFFFF;
+    outline-width: 7px;
+}
+
+#navLinks5 ul li.active:hover {
     background-color: #484848;
     color: #FFFFFF;
 }

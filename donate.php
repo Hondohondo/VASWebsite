@@ -1,12 +1,9 @@
+<?
+$pageTitle='Donate';
+?>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>VAS - Donate</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/amigocss@1.1.0/main.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="sass/main.css">
-</head>
+<?php include "header.php" ?>
 <body>
 
 <!--<header class="header height-100-percent display-flex flex-align-center flex-column position-sticky top-0 flex-self-start flex-basis-20-percent background-red-00">
@@ -36,7 +33,7 @@
     <section class="section-two donate-section">
                <div class="content-wrap">
             <h2 class="font-size-24 line-height-10 letter-spacing-4 ">
-                INDIVIDUAL GIVING /DONATION
+     <!--           INDIVIDUAL GIVING /DONATION-->
             </h2>
             <p class="para width-640 padding-top-32">
                 Will you help our arts and culture organization continue to make positive impact?
@@ -48,7 +45,7 @@
 <!--        <div class="content-column max-width-720 margin-top-96 margin-bottom-96 margin-left-auto margin-right-auto line-height-16">-->
         <div class="content-column line-height-16 flex-basis-50-percent">
 
-            <h2 class="heading-two">
+            <h2>
                 SUPPORT:
             </h2>
 

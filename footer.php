@@ -1,15 +1,15 @@
 <footer class="footer white padding-top-80 padding-bottom-80">
     <!--<footer class="footer white background-black padding-top-80 padding-bottom-80">-->
     <div class="footer-nav margin-bottom-80">
-        <ul class="unordered-list list-style-none white width-720 margin-center display-flex flex-justify-between">
+        <ul class="unordered-list list-style-none white max-width-720 margin-center display-flex flex-justify-between">
             <li>
                 <a href="about.php" class="footer-links text-decoration-none">About</a>
             </li>
             <li>
-                <a href="media.php" class="footer-links text-decoration-none">Media</a>
+                <a href="featured.php" class="footer-links text-decoration-none">Media</a>
             </li>
             <li>
-                <a href="programs.html" class="footer-links text-decoration-none">Programs</a>
+                <a href="whoweare.php" class="footer-links text-decoration-none">Programs</a>
             </li>
             <li>
                 <a href="impact.php" class="footer-links text-decoration-none">Impact</a>
@@ -21,7 +21,7 @@
     </div>
     <!--       <hr class="width-720 margin-center gray-00">-->
     <!--       <br>-->
-    <div class="footer-social font-size-16 width-720 padding-top-40 display-flex flex-justify-between margin-center">
+    <div class="footer-social font-size-16 max-width-720 padding-top-40 display-flex flex-justify-between margin-center">
         <a href="linkedin.com" class="social-links text-decoration-none display-flex-center-both">
             <ion-icon name="logo-linkedin" class="ion-linkedin"></ion-icon>
             &nbsp;
@@ -42,4 +42,3 @@
     </div>
 
 </footer>
-<script src="slider.js"></script>

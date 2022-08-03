@@ -189,7 +189,8 @@ $pageTitle='What we do';
         <div class="wide-video-container">
           <!--  <img src="images/vas-7.jpg" alt="" class="display-block width-100-percent border-radius-8">-->
             <div class="video-composition">
-                <iframe src="https://www.youtube.com/embed/WZeIaFzC-SM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!--            <iframe src="https://www.youtube.com/embed/WZeIaFzC-SM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                <iframe src="https://www.youtube.com/embed/L5hAXvxiVGA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <!--    <iframe width="560" height="315" src="https://www.youtube.com/embed/WZeIaFzC-SM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
             </div>
         </div>
@@ -249,18 +250,19 @@ $pageTitle='What we do';
         <div class="content-photo margin-top-20 flex-basis-50-percent ">
             <div id="contentContainer">
                 <div id="wrapper2">
-                    <div id="itemOne" class="content">
+                    <div id="item3a" class="content">
 
                     </div>
-                    <div id="itemThree" class="content">
+                    <div id="item3b" class="content">
 
                     </div>
-                    <div id="itemTwo" class="content">
+                    <div id="item3c" class="content">
 
                     </div>
-                    <div id="itemFour" class="content">
+                    <div id="item3d" class="content">
 
                     </div>
+
                 </div>
             </div>
 
@@ -308,5 +310,6 @@ $pageTitle='What we do';
 
 <?php include "footer.php" ?>
 
+<script src="slider.js"></script>
 </body>
 </html>

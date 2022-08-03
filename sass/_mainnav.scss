@@ -1,0 +1,93 @@
+/*
+HEADER NAV
+*/
+.header-navi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+
+  /*
+  Because we want the header to be sticky later
+  */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  position: relative;
+}
+
+.vas-logo {
+  height: 2.2rem;
+  display: none;
+}
+
+/*
+NAVIGATION
+*/
+.main-navi {
+  margin-left: auto;
+}
+.main-navi-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+}
+
+/*LVHA (Shortcut for links)*/
+
+.main-navi-link:link,
+.main-navi-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+
+  transition: all .3s;
+}
+
+.main-navi-link:hover,
+.main-navi-link:active {
+  color: #b52626;
+}
+
+.main-navi-link.navi-cta:link,
+.main-navi-link.navi-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #c92a2a;
+}
+.main-navi-link.navi-cta:hover,
+.main-navi-link.navi-cta:active {
+  padding: 1.2rem 2.4rem;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #b52626;
+}
+
+
+
+/*
+MOBILE NAVIGATION
+*/
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+

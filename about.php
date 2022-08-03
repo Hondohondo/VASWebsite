@@ -48,7 +48,7 @@ $thisPage='about';*/
         </div>
     </section>
 
-    <section class="section-zigzag padding-top-120 max-width-1040 margin-center gap-32 display-flex flex-align-center">
+    <section class="section-zigzag padding-top-120 max-width-1120 margin-center gap-24 display-flex flex-align-center">
 <!--    <section class="section-zigzag padding-top-120 max-width-960 margin-center gap-32 display-flex flex-align-center">-->
 <!--        <div class="content-column max-width-720 margin-top-96 margin-bottom-96 margin-left-auto margin-right-auto line-height-16">-->
         <div class="content-column line-height-16 flex-basis-50-percent">
@@ -75,13 +75,14 @@ $thisPage='about';*/
         <div class="content-photo margin-top-40 flex-basis-50-percent ">
             <div id="contentContainer">
                 <div id="wrapper">
-                    <div id="itemOne" class="content">
 
-                    </div>
                     <div id="itemTwo" class="content">
 
                     </div>
                     <div id="itemThree" class="content">
+
+                    </div>
+                    <div id="itemOne" class="content">
 
                     </div>
                     <div id="itemFour" class="content">
@@ -126,7 +127,7 @@ $thisPage='about';*/
 
     </section>
 
-    <section class="section-zigzag padding-top-80 max-width-1040 margin-center gap-32 display-flex flex-align-center">
+    <section class="section-zigzag padding-top-80 max-width-1120 margin-center gap-24 display-flex flex-align-center">
       <!--  <div class="content-photo flex-basis-50-percent ">
             <img src="images/vas-3.jpg" alt="VAS Art - Girl wearing mask" class="vas-photo">
         </div>-->
@@ -156,6 +157,28 @@ $thisPage='about';*/
                     <li class="itemLinks" data-pos1="-1650px"></li>
                 </ul>
             </div>
+
+          <!--  <div id="contentContainer5">
+                <div id="wrapper5">
+                    <div id="item5a" class="content5">
+
+                    </div>
+                    <div id="item6a" class="content5">
+
+                    </div>
+                    <div id="item7a" class="content5">
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="navLinks5">
+                <ul>
+                    <li class="itemLinks" data-pos5="0px"></li>
+                    <li class="itemLinks" data-pos5="-320px"></li>
+                    <li class="itemLinks" data-pos5="-640px"></li>
+                </ul>
+            </div>-->
         </div>
 
 
@@ -184,15 +207,15 @@ $thisPage='about';*/
 <!--        <img src="sliders/vas-about-10.JPG" alt="VAS Zingatia Campaign">-->
     </section>
 
-    <section class="section-team padding-top-80 padding-bottom-96 max-width-1040 margin-center">
+    <section class="section-team padding-top-80 padding-bottom-96 max-width-1120 margin-center">
         <h2>
             Our Team:
         </h2>
-        <p class="padding-bottom-40 max-width-720">
+        <p class="para-team padding-bottom-40 max-width-720">
             We have a skilled and competent team that is deeply and authentically committed to the vision. The team operates in a collegiate approach, bringing together expertise in arts, business, marketing & communication.
         </p>
         <div class="team-cards gap-32 display-flex">
-            <div class="card-1 flex-basis-33-percent">
+            <div class="teamcard card-1">
                 <div class="card-image">
                     <img src="team/mushy.jpg" alt="Mushy">
                 </div>
@@ -206,7 +229,7 @@ $thisPage='about';*/
                     </p>
                 </div>
             </div>
-            <div class="card-2 flex-basis-33-percent">
+            <div class="teamcard card-2">
                 <div class="card-image">
                     <img src="team/atul.jpg" alt="Atul">
                 </div>
@@ -222,7 +245,7 @@ $thisPage='about';*/
 
                 </div>
             </div>
-            <div class="card-3 flex-basis-33-percent">
+            <div class="teamcard card-3">
                 <div class="card-image">
                     <img src="team/susan.jpeg" alt="Susan">
                 </div>
@@ -237,10 +260,7 @@ $thisPage='about';*/
                 </div>
             </div>
 
-        </div>
-
-        <div class="team-cards margin-top-32 gap-32 display-flex">
-            <div class="card-4 flex-basis-33-percent">
+            <div class="teamcard card-4">
                 <div class="card-image">
                     <img src="team/nazir.jpeg" alt="Nazir">
                 </div>
@@ -255,7 +275,7 @@ $thisPage='about';*/
 
                 </div>
             </div>
-            <div class="card-5 flex-basis-33-percent">
+            <div class="teamcard card-5">
                 <div class="card-image">
                     <img src="team/edo.jpg" alt="Edo">
                 </div>
@@ -269,31 +289,17 @@ $thisPage='about';*/
                     </p>
                 </div>
             </div>
-            <div class="card-6 flex-basis-33-percent">
-             <!--   <div class="card-image">
-                    <img src="team/Susan.jpeg" alt="Susan">
-                </div>
-                <div class="card-content">
-                    <h3 class="heading-three margin-top-4 margin-bottom-4">
-                        SUSAN TREVOR
-                    </h3>
-                    <p class="font-size-16 margin-bottom-12">DIGITAL LEAD</p>
-                    <p class="font-size-16 margin-bottom-8">
-                        Creative with a good background in fashion,  events and influencer engagement.
-                    </p>
-                    <p class="font-size-16">
-                        Her skills in content curation and digital media assets brings out a good story telling balance
-                    </p>
-                </div>-->
-            </div>
 
         </div>
+
+
 
     </section>
 
 </main>
 
 <?php include "footer.php" ?>
+<script src="slider.js"></script>
 
 </body>
 </html>

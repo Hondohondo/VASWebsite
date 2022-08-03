@@ -5,6 +5,7 @@ var wrapper = document.querySelector("#wrapper");
 var wrapper1 = document.querySelector("#wrapper1");
 var wrapper2 = document.querySelector("#wrapper2");
 var wrapper3 = document.querySelector("#wrapper3");
+var wrapper5 = document.querySelector("#wrapper5");
 
 // the activeLink provides a pointer to the currently displayed item
 var activeLink = 0;
@@ -42,16 +43,20 @@ function changePosition(link) {
     var position = link.getAttribute("data-pos");
     var position1 = link.getAttribute("data-pos1");
     var position2 = link.getAttribute("data-pos2");
-    // var position3 = link.getAttribute("data-pos3");
+    var position3 = link.getAttribute("data-pos3");
+    var position5 = link.getAttribute("data-pos5");
 
     var translateValue = "translate3d(" + position + ", 0px, 0)";
     var translateValue1 = "translate3d(" + position1 + ", 0px, 0)";
    var translateValue2 = "translate3d(" + position2 + ", 0px, 0)";
-    // var translateValue3 = "translate3d(" + position3 + ", 0px, 0)";
+    var translateValue3 = "translate3d(" + position3 + ", 0px, 0)";
+    var translateValue5 = "translate3d(" + position5 + ", 0px, 0)";
+
     wrapper.style.transform = translateValue;
     wrapper1.style.transform = translateValue1;
  wrapper2.style.transform = translateValue2;
     // wrapper3.style.transform = translateValue3;
+    wrapper5.style.transform = translateValue5;
 
     link.classList.add("active");
 }

@@ -1,20 +1,17 @@
+<?
+$pageTitle='Impact';
+?>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>About VAS - Who We Are</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/amigocss@1.1.0/main.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="sass/main.css">
-</head>
+<?php include "header.php" ?>
 <body>
 
 <?php include "navigation.php" ?>
 
 <!--<main class="flex-grow-1">-->
-<main>
+<main id="impact">
 
-    <section class="section-two">
+    <section class="section-two impact">
         <a href="#" class="img-container-link">
 <!--            <img src="images/vas-4.JPG" alt="VAS Art - Girl wearing mask" class="vas-img">-->
         </a>
@@ -23,9 +20,10 @@
             <h2 class="font-size-24 line-height-10 letter-spacing-4 ">
 <!--                IMPACT (PROFILING)-->
             </h2>
-            <p class="para width-640 padding-top-32">
+            <p class="para max-width-640 padding-top-32">
 <!--                VAS ENVISION TO INCREASE THE MARKET SHARE & VISIBILITY OF EVERYDAY AFRICAN STORY, PARTICULARLY STORIES OF YOUTH IN CREATIVE INDUSTRIES.-->
-                VAS envision to increase the market share & visibility of everyday african story, particularly stories of youth in creative industries.
+<!--                VAS envision to increase the market share & visibility of everyday african story, particularly stories of youth in creative industries.-->
+                In celebrating two years of service, we have been able to inspire creatives and rejuvenate the creative-entrepreneurial spirit among youth. Our program challenges creatives to tackle root cause of problems in our community with an entrepreneurial mindset and create sustainable solutions with huge impact in the community.
             </p>
         </div>
     </section>
@@ -47,21 +45,84 @@
         </div>-->
     </section>
 
-    <section class="section-zigzag padding-top-64 max-width-1040 margin-center gap-40 display-flex">
-        <div class="content-photo flex-basis-33-percent ">
-          <img src="artists/ray-van-by-kimweri.jpg" alt="VAS Art - Ray Van Painting by Kimweri" class="vas-photo">
+    <section class="section-zigzag section-3-slides padding-top-64 margin-center display-flex">
+        <div class="content-photo">
+<!--          <img src="artists/ray-van-by-kimweri.jpg" alt="VAS Art - Ray Van Painting by Kimweri" class="vas-photo">-->
+            <div id="contentContainer5">
+                <div id="wrapper7">
+                    <div id="item5c" class="content5">
+
+                    </div>
+                    <div id="item6c" class="content5">
+
+                    </div>
+                    <div id="item7c" class="content5">
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="navLinks5">
+                <ul>
+                    <li class="itemLinks" data-pos7="0px"></li>
+                    <li class="itemLinks" data-pos7="-320px"></li>
+                    <li class="itemLinks" data-pos7="-640px"></li>
+                </ul>
+            </div>
             <p class="margin-top-20">
                 Artist Ayoub Kimweri, received recognition and partnered with WCB (established music label in East Africa to paint a mural of a well-established artist in Dar es Salaam.
             </p>
       </div>
-        <div class="content-photo flex-basis-33-percent ">
-          <img src="artists/artist-jordan.jpg" alt="VAS Art - Artist Jordan Painting" class="vas-photo">
+        <div class="content-photo">
+         <!-- <img src="artists/artist-jordan.jpg" alt="VAS Art - Artist Jordan Painting" class="vas-photo">-->
+            <div id="contentContainer5">
+                <div id="wrapper6">
+                    <div id="item5b" class="content5">
+
+                    </div>
+                    <div id="item6b" class="content5">
+
+                    </div>
+                    <div id="item7b" class="content5">
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="navLinks5">
+                <ul>
+                    <li class="itemLinks" data-pos6="0px"></li>
+                    <li class="itemLinks" data-pos6="-320px"></li>
+                    <li class="itemLinks" data-pos6="-640px"></li>
+                </ul>
+            </div>
             <p class="margin-top-20">
                 Artist Jordan, has transformed the ambiance at Bahari beach with a series of positive artworks hanging around the beach.
             </p>
       </div>
-        <div class="content-photo flex-basis-33-percent">
-            <img src="artists/painting-on-rock.JPG" alt="VAS Art - Painting on Rock by Tibasima" class="vas-photo">
+        <div class="content-photo">
+         <!--   <img src="artists/painting-on-rock.JPG" alt="VAS Art - Painting on Rock by Tibasima" class="vas-photo">-->
+            <div id="contentContainer5">
+                <div id="wrapper5">
+                    <div id="item5a" class="content5">
+
+                    </div>
+                    <div id="item6a" class="content5">
+
+                    </div>
+                    <div id="item7a" class="content5">
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="navLinks5">
+                <ul>
+                    <li class="itemLinks" data-pos5="0px"></li>
+                    <li class="itemLinks" data-pos5="-320px"></li>
+                    <li class="itemLinks" data-pos5="-640px"></li>
+                </ul>
+            </div>
             <p class="margin-top-20">
                 Edward Tibasima has been able to register his art business “Color Mwanza” and chase profitable opportunities by replicating our model.
             </p>
@@ -114,19 +175,32 @@
         </div>
     </section>
 
-    <section class="section-zigzag padding-top-64 max-width-1040 margin-center gap-40 display-flex">
-        <div class="content-photo flex-basis-33-percent ">
-            <img src="impact/vas-karina-mwananyamala.jpg" alt="VAS Art - Mwananyamala Karina" class="vas-photo">
+    <section class="section-zigzag last-photos padding-top-64 max-width-1040 margin-center display-flex">
+        <div class="content-photo">
+            <img src="impact/vas-impact-02.jpg" alt="VAS Art - Mwananyamala Karina" class="vas-photo">
+
         </div>
-        <div class="content-photo flex-basis-33-percent ">
-            <img src="impact/vas-mwanza.JPG" alt="VAS Art - Mwanza Painting" class="vas-photo">
+        <div class="content-photo">
+            <img src="impact/vas-impact-01.png" alt="VAS Art - Mwanza Painting" class="vas-photo">
         </div>
-        <div class="content-photo flex-basis-33-percent">
-            <img src="impact/vas-karina-kigogo.jpg" alt="VAS Art - Kigogo Karina" class="vas-photo">
+        <div class="content-photo">
+            <img src="impact/vas-impact-00.jpg" alt="VAS Art - Kigogo Karina" class="vas-photo">
+        </div>
+
+        <div class="content-photo">
+            <img src="impact/vas-impact-04.jpg" alt="VAS Art - Magufuli Painting on Wall" class="vas-photo">
+
+        </div>
+        <div class="content-photo">
+            <img src="impact/vas-impact-05.jpg" alt="VAS Art - Magufuli Painting on Wall" class="vas-photo">
+        </div>
+        <div class="content-photo">
+            <img src="impact/vas-impact-06.jpg" alt="VAS Art - Kigogo Karina" class="vas-photo">
         </div>
     </section>
 
-    <section class="section-zigzag padding-top-96 max-width-960 margin-center gap-32 display-flex flex-align-center">
+
+    <section class="section-zigzag padding-top-96 max-width-960 margin-center">
         <div class="content-column line-height-16 max-width-720">
             <h2>
                SUPPORTED BY:
@@ -134,16 +208,21 @@
         </div>
     </section>
 
-    <section class="section-zigzag padding-top-40 padding-bottom-80 max-width-1040 margin-center gap-40 display-flex-center-both">
-        <div class="content-photo flex-basis-33-percent ">
-          <img src="logos/africa-no-filter.png" alt="african no filter logo" class="logo-photo logo-1">
-      </div>
-        <div class="content-photo flex-basis-33-percent ">
-          <img src="logos/mastercard.jpg" alt="mastercard logo" class="logo-photo logo-2">
-      </div>
-        <div class="content-photo flex-basis-33-percent ">
-          <img src="logos/swiss-embassy.png" alt="swiss embassy logo" class="logo-photo logo-3">
-      </div>
+    <section class="section-zigzag  padding-top-40 padding-bottom-80 max-width-1040 margin-center">
+        <div class="supported-by">
+            <div class="element2 gap-40 display-flex-center-both">
+                <div class="content-photo flex-basis-33-percent ">
+                    <img src="logos/africa-no-filter.png" alt="african no filter logo" class="logo-photo logo-1">
+                </div>
+                <div class="content-photo flex-basis-33-percent ">
+                    <img src="logos/mastercard.png" alt="mastercard logo" class="logo-photo logo-2">
+                </div>
+                <div class="content-photo flex-basis-33-percent ">
+                    <img src="logos/swiss-embassy.png" alt="swiss embassy logo" class="logo-photo logo-3">
+                </div>
+            </div>
+        </div>
+
     </section>
 
 <!--
@@ -324,5 +403,6 @@
 
 <?php include "footer.php" ?>
 
+<script src="slider-1.js"></script>
 </body>
 </html>

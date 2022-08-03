@@ -18,26 +18,28 @@ iframe {
 
 .card {
 
+
   //FUNCTIONALITY
   //perspective: 150rem;
   //-moz-perspective: 150rem;
   position: relative;
   //height: 50rem;
-  height: 48rem;
+  //height: 48rem;
   transition: all .3s;
 
   &__side {
     //background-color: orangered;
-    //height: 50rem;
-    height: 48rem;
+    height: 50rem;
+    //height: 48rem;
     //transition: all .8s ease;
+    //padding: 10px;
 
     //color: white;
     //font-size: 2rem;
 
-    position: absolute;
+ /*   position: absolute;
     top: 0;
-    left: 0;
+    left: 0;*/
     width: 100%;
     backface-visibility: hidden;
     border-radius: 3px;
@@ -112,7 +114,8 @@ iframe {
 
   &__heading {
     //font-size: 2.8rem;
-    font-size: 2.4rem;
+    //font-size: 2.4rem;
+    font-size: 2.2rem;
     //font-weight: 300;
     font-weight: 400;
     text-transform: uppercase;
@@ -128,7 +131,8 @@ iframe {
   &__details {
     //padding: 3rem;
     padding: 2rem;
-    width: 80%;
+    //width: 80%;
+    //width: 1000%;
     margin: 0 auto;
     text-align: center;
     //font-size: 1.5rem;

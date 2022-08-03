@@ -9,7 +9,7 @@
         </div>
         <ul class="main-nav">
             <li><a href="about.php">About</a></li>
-            <li><a href="whoweare.php">Who we are</a></li>
+            <li><a href="whoweare.php">What we do</a></li>
             <li><a href="impact.php">Impact</a></li>
             <li><a class="cta" href="donate.php">Donate</a></li>
         </ul>
