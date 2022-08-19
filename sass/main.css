@@ -292,13 +292,6 @@ iframe {
 .card__side--back-1 {
   background: linear-gradient(to right bottom, #ffd43b, #e67700);
 }
-.card:hover {
-  transform: translateY(-1.5rem) scale(1.03);
-  cursor: pointer;
-}
-.card:active {
-  transform: translateY(-1rem) scale(1);
-}
 .card__picture {
   background-size: cover;
   height: 24rem;
@@ -467,7 +460,7 @@ iframe {
 }
 
 .header {
-  height: 100vh;
+  height: 95vh;
   position: relative;
 }
 
@@ -565,17 +558,12 @@ HEADER NAV
 }
 
 .vas-logo {
-  height: 2.2rem;
-  display: none;
+  height: 5.6rem;
 }
 
 /*
 NAVIGATION
 */
-.main-navi {
-  margin-left: auto;
-}
-
 .main-navi-list {
   list-style: none;
   display: flex;

@@ -10,32 +10,6 @@
     transform: translate3d(0, 0, 0);
      transition: transform .5s ease-in-out;
 }
-#wrapper6 {
-    /*width: 1200px;*/
-    width: 960px;
-    transform: translate3d(0, 0, 0);
-     transition: transform .5s ease-in-out;
-}#wrapper7 {
-    /*width: 1200px;*/
-    width: 960px;
-    transform: translate3d(0, 0, 0);
-     transition: transform .5s ease-in-out;
-}
-
-.wide-video-container {
-
-}
-
-.video-composition {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.video-composition iframe {
-    width: 640px;
-    height: 360px;
-}
 
 .section-transition {
     background-image: url("sliders/vas-about-10.JPG");
@@ -44,98 +18,15 @@
     background-position: top;
     background-attachment: fixed;
     /*transform: scale(.90);*/
-    /*transform: translate3d(0,0,0);  was supposed to support iOS - but I dont think it does*/
+
 }
 
-@supports (-webkit-touch-callout: none) {
-    /* CSS specific to iOS devices */
-    .section-transition {
-        background-attachment: scroll;
-    }
-}
-
-#wrapper1 {
-    width: 2200px;
-    transform: translate3d(0, 0, 0);
-     transition: transform .5s ease-in-out;
-}
-#wrapper2 {
-    width: 2200px;
-    transform: translate3d(0, 0, 0);
-     transition: transform .5s ease-in-out;
-}
-#wrapper3 {
-    width: 2200px;
-    transform: translate3d(0, 0, 0);
-     transition: transform .5s ease-in-out;
-}
 .content {
     float: left;
     width: 550px;
     height: 350px;
     white-space: normal;
     background-repeat: no-repeat;
-}
-.content5 {
-    float: left;
-    width: 320px;
-    height: 213px;
-    white-space: normal;
-    background-repeat: no-repeat;
-}
-/*#itemOne {
-    background-color: #ADFF2F;
-    background-image: url("//www.kirupa.com/images/blueSquare.png");
-}
-#itemTwo {
-    background-color: #FF7F50;
-    background-image: url("//www.kirupa.com/images/yellowSquare.png");
-}
-#itemThree {
-    background-color: #1E90FF;
-    background-image: url("//www.kirupa.com/images/pinkSquare.png");
-}
-#itemFour {
-    background-color: #DC143C;
-    background-image: url("//www.kirupa.com/images/graySquare.png");
-}*/
-#item5a{
-    background-image: url("impact/tibasima-1.jpg");
-    background-size: cover;
-}
-#item6a {
-    background-image: url("impact/tibasima-2.jpg");
-    background-size: cover;
-}
-#item7a {
-    background-image: url("impact/tibasima-3.png");
-    background-size: cover;
-}
-
-#item5b{
-    background-image: url("impact/jordan-1.jpg");
-    background-size: cover;
-}
-#item6b {
-    background-image: url("impact/jordan-2.PNG");
-    background-size: cover;
-}
-#item7b {
-    background-image: url("impact/jordan-3.jpg");
-    background-size: cover;
-}
-
-#item5c{
-    background-image: url("impact/kimweri-1.jpg");
-    background-size: cover;
-}
-#item6c {
-    background-image: url("impact/kimweri-2.jpg");
-    background-size: cover;
-}
-#item7c {
-    background-image: url("impact/ray-van-by-kimweri.jpg");
-    background-size: cover;
 }
 
 #item3a{

@@ -6,8 +6,8 @@ $pageTitle='Impact';
 <?php include "header.php" ?>
 <body>
 
-<?php include "navigation.php" ?>
-
+<?php //include "navigation.php" ?>
+<?php include "main-nav.php" ?>
 <!--<main class="flex-grow-1">-->
 <main id="impact">
 
@@ -23,7 +23,8 @@ $pageTitle='Impact';
             <p class="para max-width-640 padding-top-32">
 <!--                VAS ENVISION TO INCREASE THE MARKET SHARE & VISIBILITY OF EVERYDAY AFRICAN STORY, PARTICULARLY STORIES OF YOUTH IN CREATIVE INDUSTRIES.-->
 <!--                VAS envision to increase the market share & visibility of everyday african story, particularly stories of youth in creative industries.-->
-                In celebrating two years of service, we have been able to inspire creatives and rejuvenate the creative-entrepreneurial spirit among youth. Our program challenges creatives to tackle root cause of problems in our community with an entrepreneurial mindset and create sustainable solutions with huge impact in the community.
+<!--                In celebrating two years of service, we have been able to inspire creatives and rejuvenate the creative-entrepreneurial spirit among youth.-->
+                Our program challenges creatives to tackle root cause of problems in our community with an entrepreneurial mindset and create sustainable solutions with huge impact in the community.
             </p>
         </div>
     </section>

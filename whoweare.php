@@ -6,8 +6,8 @@ $pageTitle='What we do';
 <?php include "header.php" ?>
 <body>
 
-<?php include "navigation.php" ?>
-
+<?php //include "navigation.php" ?>
+<?php include "main-nav.php" ?>
 <main>
 
     <section class="section-two who-we-are">
@@ -19,7 +19,7 @@ $pageTitle='What we do';
             <h2 class="font-size-24 line-height-10 letter-spacing-4 ">
 <!--                What we do-->
             </h2>
-            <p class="para width-640 padding-top-32">
+            <p class="para max-width-640 padding-top-32">
                 We create public art that engage, educate and inspire our community.
             </p>
         </div>
@@ -61,12 +61,20 @@ $pageTitle='What we do';
                     </div>
                 </div>
 
-                <div id="navLinks">
+                <div id="navLinks" class="big-slider">
                     <ul>
                         <li class="itemLinks" data-pos="0px"></li>
                         <li class="itemLinks" data-pos="-550px"></li>
                         <li class="itemLinks" data-pos="-1100px"></li>
                         <li class="itemLinks" data-pos="-1650px"></li>
+                    </ul>
+                </div>
+                <div id="navLinks" class="small-slider">
+                    <ul>
+                        <li class="itemLinks" data-pos="0px"></li>
+                        <li class="itemLinks" data-pos="-320px"></li>
+                        <li class="itemLinks" data-pos="-640px"></li>
+                        <li class="itemLinks" data-pos="-960px"></li>
                     </ul>
                 </div>
             </div>
@@ -128,12 +136,20 @@ $pageTitle='What we do';
                 </div>
             </div>
 
-            <div id="navLinks1">
+            <div id="navLinks1" class="big-slider">
                 <ul>
                    <li class="itemLinks" data-pos1="0px"></li>
                     <li class="itemLinks" data-pos1="-550px"></li>
                     <li class="itemLinks" data-pos1="-1100px"></li>
                     <li class="itemLinks" data-pos1="-1650px"></li>
+                </ul>
+            </div>
+            <div id="navLinks1" class="small-slider">
+                <ul>
+                    <li class="itemLinks" data-pos1="0px"></li>
+                    <li class="itemLinks" data-pos1="-320px"></li>
+                    <li class="itemLinks" data-pos1="-640px"></li>
+                    <li class="itemLinks" data-pos1="-960px"></li>
                 </ul>
             </div>
         </div>
@@ -266,12 +282,20 @@ $pageTitle='What we do';
                 </div>
             </div>
 
-            <div id="navLinks2">
+            <div id="navLinks2" class="big-slider">
                 <ul>
                     <li class="itemLinks" data-pos2="0px"></li>
                     <li class="itemLinks" data-pos2="-550px"></li>
                     <li class="itemLinks" data-pos2="-1100px"></li>
                     <li class="itemLinks" data-pos2="-1650px"></li>
+                </ul>
+            </div>
+            <div id="navLinks2" class="small-slider">
+                <ul>
+                    <li class="itemLinks" data-pos2="0px"></li>
+                    <li class="itemLinks" data-pos2="-320px"></li>
+                    <li class="itemLinks" data-pos2="-640px"></li>
+                    <li class="itemLinks" data-pos2="-960px"></li>
                 </ul>
             </div>
         </div>

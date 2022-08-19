@@ -25,8 +25,8 @@ $pageTitle='Donate';
 
 </header>-->
 
-<?php include "navigation.php" ?>
-
+<?php //include "navigation.php" ?>
+<?php include "main-nav.php" ?>
 <!--<main class="flex-grow-1">-->
 <main>
 
@@ -35,7 +35,7 @@ $pageTitle='Donate';
             <h2 class="font-size-24 line-height-10 letter-spacing-4 ">
      <!--           INDIVIDUAL GIVING /DONATION-->
             </h2>
-            <p class="para width-640 padding-top-32">
+            <p class="para max-width-640 padding-top-32">
                 Will you help our arts and culture organization continue to make positive impact?
             </p>
         </div>
@@ -97,7 +97,7 @@ $pageTitle='Donate';
 
             <p class="margin-bottom-20">
                 <span>
-                    <a class="donate" href="https://www.paypal.com" target="_blank">Donate Today</a>
+                    <a class="donate" href="https://www.paypal.com/donate/?hosted_button_id=EMM7QW5GBF4PN" target="_blank">Donate Today</a>
                 </span>
             </p>
 

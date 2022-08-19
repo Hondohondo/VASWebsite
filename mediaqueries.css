@@ -92,6 +92,10 @@
 
 @media (max-width: 1040px) {
 
+    .header {
+        height: 95vh;
+    }
+
     .section-zigzag {
         flex-direction: column;
         max-width: 72rem;
@@ -156,6 +160,10 @@
         /*1 rem is 8px | 8/16 = 50*/
     }
 
+    .header {
+        height: 90vh;
+    }
+
     .heading-two {
 
     }
@@ -183,7 +191,8 @@
     }
 
     .card__side {
-        height: 45rem;
+        /*height: 45rem;*/
+        height: auto;
     }
 
     .section-cards {
@@ -196,10 +205,18 @@
         /*padding-bottom: 8rem;*/
     }
 
+    .card {
+        height: auto;
+    }
+
 
 }
 
 @media (max-width: 800px) {
+
+    .header {
+        height: 80vh;
+    }
 
     .section-zigzag {
         padding-left: 24px;
@@ -209,6 +226,10 @@
     #impact .content-column {
       /*  padding-left: 24px;
         padding-right: 24px;*/
+    }
+
+    .section-two .content-wrap {
+        width: 80%;
     }
 
     .supported-by {
@@ -233,6 +254,53 @@
 
 
 @media (max-width: 600px) {
+
+    .last-photos .content-photo .vas-photo {
+        width: 90%;
+    }
+
+    .padding-top-120 {
+        padding-top: 6rem;
+    }
+
+    .padding-top-96 {
+        padding-top: 4.8rem;
+    }
+
+    .header {
+        /*height: 60vh;*/
+    }
+
+    .header-navi {
+        padding: 0 1.6rem;
+    }
+
+    .heading-two {
+        font-size: 2.8rem;
+    }
+
+    .section-cards {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .margin-bottom-80 {
+        margin-bottom: 4rem;
+    }
+
+
+
+    .card__heading {
+        font-size: 2rem;
+    }
+
+    .card__details {
+        /*padding: 1rem;*/
+    }
+
+    .vas-logo {
+        height: 4.8rem;
+    }
 
     .team-cards {
         /*flex-wrap: nowrap;*/
@@ -268,5 +336,10 @@
 @media (max-width: 500px) {
     .teamcard {
         width: 100%;
+    }
+
+    .homepage-video, .video-composition iframe {
+        width: 320px;
+        height: 180px;
     }
 }

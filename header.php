@@ -1,6 +1,7 @@
 <head>
     <meta charset="UTF-8">
     <title>VAS - <?=$pageTitle?></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/amigocss@1.1.0/main.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="slider.css">

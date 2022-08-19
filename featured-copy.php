@@ -23,7 +23,7 @@ $thisPage='about';*/
             <h2 class="font-size-24 line-height-10 letter-spacing-4 ">
 <!--                About VAS-->
             </h2>
-            <p class="para width-640 padding-top-32">
+            <p class="para max-width-640 padding-top-32">
                 The Zingatia campaign remains relevant in 2021 and shows the importance of engaging with the masses (mass communication/behavioral change campaigns) in development areas and things that impact life and death. The campaign continues to receive coverage across print and digital media.
             </p>
         </div>

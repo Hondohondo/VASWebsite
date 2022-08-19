@@ -166,7 +166,12 @@ section-two:hover .message {
 .footer-links:visited {
     /*color: #333;*/
     color: #fff;
-    /*color: #c92a2a;*/
+    transition: all .3s;
+
+}
+.footer-links:hover,
+.footer-links:active {
+    color: #c92a2a;
 }
 
 ion-icon {
@@ -185,7 +190,7 @@ ion-icon {
     /*color: #333;*/
     color: #fff;
 
-    transition: all 3s;
+    transition: all .3s;
 }
 .social-links:active,
 .social-links:hover {
@@ -214,6 +219,23 @@ ion-icon {
 .social-links:hover .ion-instagram,
 .social-links:hover .ion-instagram + span {
     color: #c13584;
+}
+
+.social-links:hover .ion-youtube,
+.social-links:hover .ion-youtube + span {
+    color: #FF0000;
+}
+.tel, .email {
+    transition: all .3s;
+}
+.tel:hover,
+.email:hover
+{
+    color: #c92a2a;
+}
+
+.ion-email {
+
 }
 
 .ion-facebook {

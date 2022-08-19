@@ -9,8 +9,8 @@ $thisPage='about';*/
 <?php include "header.php" ?>
 <body>
 
-<?php include "navigation.php" ?>
-
+<?php //include "navigation.php" ?>
+<?php include "main-nav.php" ?>
 <!--<main class="flex-grow-1">-->
 <main>
 
@@ -24,8 +24,9 @@ $thisPage='about';*/
 <!--                About VAS-->
             </h2>
             <p class="para max-width-640 padding-top-32">
-                The Zingatia campaign remains relevant in 2021 and shows the importance of engaging with the masses (mass communication/behavioral change campaigns) in development areas and things that impact life and death. The campaign continues to receive coverage across print and digital media.
+                The Zingatia campaign remains relevant in 2021 and shows the importance of engaging with the masses (mass communication/behavioral change campaigns) in development areas and things that impact life and death.
             </p>
+<!--            The campaign continues to receive coverage across print and digital media.-->
         </div>
     </section>
 

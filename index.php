@@ -5,43 +5,22 @@ $pageTitle='Visual Aided Stories';
 <!DOCTYPE html>
 <html lang="en">
 <?php include "header.php" ?>
-
 <body>
 
 <!--vashub.org-->
-
-
 
 <div class="vertical-ribbon">
 
 </div>
 
 
-<!--<div class="header-navi navi-open"> add the class for mobile navigation-->
-<div class="header-navi">
-    <img src="vas-logo.png" alt="VAS Logo" class="vas-logo">
-
-    <nav class="main-navi">
-        <ul class="main-navi-list">
-            <li><a class="main-navi-link" href="about.php">About</a></li>
-            <li><a class="main-navi-link" href="whoweare.php">What we do</a></li>
-            <li><a class="main-navi-link" href="impact.php">Impact</a></li>
-            <li><a class="main-navi-link navi-cta" href="donate.php">Donate</a></li>
-        </ul>
-    </nav>
-
-    <button class="btn-mobile-nav">
-        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
-        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
-    </button>
-
-</div>
 
 <?php /*include "navigation.php" */?>
+<?php include "main-nav.php" ?>
 
 <header class="header">
     <div class="bg-video-container">
-        <video class="bg-video" autoplay loop muted>
+        <video class="bg-video" autoplay loop muted playsinline>
 <!--        <video class="bg-video" autoplay muted loop>-->
 <!--            <source src="samplevideo.mp4" type="video/mp4">-->
             <source src="hero-video.mp4" type="video/mp4">
@@ -216,7 +195,7 @@ $pageTitle='Visual Aided Stories';
                         <div class="card__picture card__picture-1">
                         </div>
                         <h4 class="card__heading">
-                            The MasterCard Foundation
+                            MasterCard Foundation
                         </h4>
                         <div class="card__details">
                             Youth-Led Creative Enterprise Adapts to Curb the Spread of COVID-19 in Tanzania
@@ -349,9 +328,5 @@ Live adventureous like you have never have before
 
 
 
-
-
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

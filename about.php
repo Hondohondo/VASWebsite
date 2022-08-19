@@ -28,8 +28,8 @@ $thisPage='about';*/
 
 </header>-->
 
-<?php include "navigation.php" ?>
-
+<?php //include "navigation.php" ?>
+<?php include "main-nav.php" ?>
 <!--<main class="flex-grow-1">-->
 <main>
 
@@ -42,7 +42,7 @@ $thisPage='about';*/
             <h2 class="font-size-24 line-height-10 letter-spacing-4 ">
 <!--                About VAS-->
             </h2>
-            <p class="para width-640 padding-top-32">
+            <p class="para max-width-640 padding-top-32">
                 VAS is a youth-led creative enterprise using arts, technology and storytelling as tools for social change. Through arts, the initiative celebrates history and culture of Pan Africanism, raises awareness on important social issues and showcases local talent.
             </p>
         </div>
@@ -91,12 +91,20 @@ $thisPage='about';*/
                 </div>
             </div>
 
-            <div id="navLinks">
+            <div id="navLinks" class="big-slider">
                 <ul>
                     <li class="itemLinks" data-pos="0px"></li>
                     <li class="itemLinks" data-pos="-550px"></li>
                     <li class="itemLinks" data-pos="-1100px"></li>
                     <li class="itemLinks" data-pos="-1650px"></li>
+                </ul>
+            </div>
+            <div id="navLinks" class="small-slider">
+                <ul>
+                    <li class="itemLinks" data-pos="0px"></li>
+                    <li class="itemLinks" data-pos="-320px"></li>
+                    <li class="itemLinks" data-pos="-640px"></li>
+                    <li class="itemLinks" data-pos="-960px"></li>
                 </ul>
             </div>
         </div>
@@ -149,12 +157,20 @@ $thisPage='about';*/
                 </div>
             </div>
 
-            <div id="navLinks1">
+            <div id="navLinks1" class="big-slider">
                 <ul>
                     <li class="itemLinks" data-pos1="0px"></li>
                     <li class="itemLinks" data-pos1="-550px"></li>
                     <li class="itemLinks" data-pos1="-1100px"></li>
                     <li class="itemLinks" data-pos1="-1650px"></li>
+                </ul>
+            </div>
+            <div id="navLinks1" class="small-slider">
+                <ul>
+                    <li class="itemLinks" data-pos1="0px"></li>
+                    <li class="itemLinks" data-pos1="-320px"></li>
+                    <li class="itemLinks" data-pos1="-640px"></li>
+                    <li class="itemLinks" data-pos1="-960px"></li>
                 </ul>
             </div>
 
